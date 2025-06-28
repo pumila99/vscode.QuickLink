@@ -15,7 +15,19 @@
     "commands": [
       {
         "command": "samplecode.helloWorld",
-        "title": "ショートカットのリンク先をエクスプローラーで開く"
+        "title": "ショートカットのリンク先を開く"
+      }
+    ],
+    "customEditors": [
+      {
+        "viewType": "samplecode.lnkOpener",
+        "displayName": "Windows Shortcut Link",
+        "selector": [
+          {
+            "filenamePattern": "*.lnk"
+          }
+        ],
+        "priority": "default"
       }
     ],
     "menus": {
