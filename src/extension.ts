@@ -6,8 +6,8 @@ import { openLnkTargetPath } from './utils/openLnkTarget';
 import { LnkOpenerProvider } from './providers/LnkOpenerProvider';
 
 // This method is called when your extension is activated
-export function activate(context: vscode.ExtensionContext) {
-
+export function activate(context: vscode.ExtensionContext)
+{
 	console.log('Congratulations, your extension "samplecode" is now active!');
 
 	// 右クリックメニューから呼ばれるコマンドを登録するよ！
